@@ -1,5 +1,6 @@
 var socket = io();
 
+// https://developer.mozilla.org/en-US/docs/Web/API/Element
 function scrollToBottom() {
   // Selectors
   var messages = jQuery('#messages'); 
